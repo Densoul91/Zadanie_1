@@ -22,7 +22,7 @@
         Console.Write("6. Фирма, в которой работаете: ");
         var job = Console.ReadLine();
 
-        Console.WriteLine("\nВведеные данные:\n");
+        Console.WriteLine("\nВведеные данные:\n");///////////////////
         Console.Write($"{lastname} {name} {patronymic}\nТелефон: {phone}\nEmail: {mail}\nРаботает в {job}");
     }
 }
